@@ -1,85 +1,65 @@
 <!DOCTYPE html>
-<html lang="vi">
-<head>
-    <meta charset="UTF-8">
-    <title>Thông Tin Cá Nhân - Phạm Duy Minh Nhân</title>
-    <style>
-        /* CSS để đồng bộ với Trang Chủ */
-        body {
-            font-family: Arial, sans-serif;
-            background-color: blue; /* Màu nền trang web: Xám nhạt */
-            color: #333; /* Màu chữ chính: Đen xám */
-            margin: 0;
-            padding: 20px;
-        }
+<html>
+  <head>
+    <head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width">
+     <meta name="description" content="Thiet ke web chuyen nghiep">
+     <meta name="keywords" content="web design, professional web design, thiet ke web, thiet ke web chuyen nghiep">
+     <meta name="author" content="Ngoc Minh">
+     <title>Ngoc Minh Web Design | Thông tin</title>
+     <link rel="stylesheet" href="./css/style.css">
+  </head>
+  </head>
+  <body>
+   <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">Ngoc Minh</span> Web Design</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="trangchu.html">Trang chủ</a></li>
+            <li class="current"><a href="thongtin.html">Thông tin</a></li>
+            <li><a href="dichvu.html">Dịch vụ</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-        h1 {
-            color: red; /* Màu tiêu đề chính: Xanh đậm */
-            border-bottom: 2px solid #ccc;
-            padding-bottom: 10px;
-        }
+      <section id="newsletter">
+      <div class="container">
+        <h1>Đăng ký để nhận thông báo mới từ chúng tôi</h1>
+        <form>
+          <input type="email" placeholder="Nhập Email...">
+          <button type="submit" class="button_1">Đăng ký</button>
+        </form>
+      </div>
+    </section>
 
-        h2, h3 {
-            color: pink; /* Màu tiêu đề phụ: Xanh dương */
-        }
+    <section id="main">
+      <div class="container">
+        <article id="main-col">
+          <h1 class="page-title">Về chúng tôi</h1>
+          <p>
+          Chúng tôi luôn lắng nghe nhu cầu, tạo ra những ý tưởng đột phá mới giúp hơn 2.300 khách hàng thành công. 
+          </p>
+          <p class="dark">
+Về sáng tạo, chúng tôi có hơn 10 năm kinh nghiệm xây dựng chiến lược web cho công ty, thương mại điện tử và tập đoàn. Về công nghệ, chúng tôi phát triển những trang web vượt trội, giải pháp e-commercial, quảng cáo web, dịch vụ web…
+          </p>
+        </article>
 
-        /* Định dạng cho tất cả các đường liên kết */
-        a {
-            color: dark red; /* Màu đường link */
-            text-decoration: none; /* LOẠI BỎ GẠCH CHÂN */
-        }
+        <aside id="sidebar">
+          <div class="dark">
+            <h3>Dịch vụ chúng tôi</h3>
+            <p>Chúng tôi cam kết cung cấp dịch vị tin cậy, chuyên nghiệp, phải chăng.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
 
-        /* Hiệu ứng khi di chuột qua đường link */
-        a:hover {
-            color: red; /* Màu link khi di chuột: Xanh đậm hơn */
-            text-decoration: underline; /* Thêm lại gạch chân khi di chuột */
-        }
-
-        ul {
-            list-style: none; /* Loại bỏ dấu chấm đầu dòng */
-            padding-left: 0;
-        }
-
-        ul li {
-            margin-bottom: 10px;
-        }
-
-        hr {
-            border: 0;
-            height: 1px;
-            background-color: #ccc;
-            margin: 20px 0;
-        }
-
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: light red; /* Màu nền footer: Xám rất nhạt */
-            color: #6c757d;
-            border-top: 1px solid #ccc;
-        }
-    </style>
-</head>
-<body>
-    <h1>Thông Tin Cá Nhân & Liên Hệ</h1>
-    
-    <h2>Phạm Duy Minh Nhân</h2>
-
-    <p>Dưới đây là một số thông tin cơ bản và cách thức liên lạc với tôi.</p>
-    
-    <h3>Chi Tiết Cá Nhân</h3>
-    <ul>
-        <li><strong>Ngày sinh:</strong> 11/09/2009</li>
-        <li><strong>Quê quán:</strong> Nha Trang,Khánh Hòa</li>
-        <li><strong>Trình độ học vấn:</strong> Học Sinh ngành CNTT</li>
-        <li><strong>Sở thích:</strong>Đọc sách, Chơi game..</li>
-    </ul>
-
-    <h3>Liên Hệ</h3>
-    <ul>
-        <li><strong>Email:</strong> <a href="mailto:minhnhan2221@gmail" minhnhan2221@gmail.com</a></li>
-        <li><strong>Điện thoại:</strong> 0343419360</li>
-        <li><strong>Địa chỉ hiện tại:</strong> </li>
-        <li><strong>GitHub/Portfolio:</strong> <a href="[Đường dẫn GitHub của bạn]" target="_blank">https://github.com/MdHyuga</a></li>
-    </ul>
-
+     <footer>
+      <p>Ngoc Minh Web Deisgn, Copyright &copy; 2022</p>
+    </footer>
+  </body>
+</html>

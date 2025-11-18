@@ -1,94 +1,88 @@
 <!DOCTYPE html>
-<html lang="vi">
-<head>
-    <meta charset="UTF-8">
-    <title>Kỹ Năng & Dịch Vụ - Phạm Duy Minh Nhân</title>
-    <style>
-        /* CSS để đồng bộ với các trang khác */
-        body {
-            font-family: Arial, sans-serif;
-            background-color: blue; /* Màu nền trang web: Xám nhạt */
-            color: #333; /* Màu chữ chính: Đen xám */
-            margin: 0;
-            padding: 20px;
-        }
+<html>
+   <head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width">
+     <meta name="description" content="Thiet ke web chuyen nghiep">
+     <meta name="keywords" content="web design, professional web design, thiet ke web, thiet ke web chuyen nghiep">
+     <meta name="author" content="Ngoc Minh">
+     <title>Ngoc Minh Web Design | Dịch vụ</title>
+     <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+   <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">Ngoc Minh</span> Web Design</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="trangchu.html">Trang chủ</a></li>
+            <li><a href="thongtin.html">Thông tin</a></li>
+            <li class="current"><a href="dichvu.html">Dịch vụ</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-        h1 {
-            color: red; /* Màu tiêu đề chính: Xanh đậm */
-            border-bottom: 2px solid #ccc;
-            padding-bottom: 10px;
-        }
+   <section id="newsletter">
+      <div class="container">
+        <h1>Đăng ký để nhận thông báo mới từ chúng tôi</h1>
+        <form>
+          <input type="email" placeholder="Nhập Email...">
+          <button type="submit" class="button_1">Đăng ký</button>
+        </form>
+      </div>
+    </section>
 
-        h2, h3 {
-            color: pink; /* Màu tiêu đề phụ: Xanh dương */
-        }
+    <section id="main">
+      <div class="container">
+        <article id="main-col">
+          <h1 class="page-title">Các dịch vụ</h1>
+          <ul id="services">
+            <li>
+              <h3>Thiết kế Website</h3>
+              <p>Tạo website chuyên nghiệp, giá cả phải chăng cho cá nhân, công ty, doanh nghiệp hoặc tổ chức.</p>
+	<p>Giá: $1,000 - $3,000</p>
+            </li>
+            <li>
+              <h3>Bảo trì Website</h3>
+              <p>Bảo trì website chuyên nghiệp, giá cả phải chăng cho cá nhân, công ty, doanh nghiệp hoặc tổ chức.</p>
+						  <p>Giá: $250 mỗi tháng</p>
+            </li>
+            <li>
+              <h3>Web Hosting</h3>
+              <p>Cung cấp hosting chuyên nghiệp, giá cả phải chăng cho cá nhân, công ty, doanh nghiệp hoặc tổ chức.</p>
+						  <p>Giá: $25 mỗi tháng</p>
+            </li>
+          </ul>
+        </article>
 
-        /* Định dạng cho tất cả các đường liên kết */
-        a {
-            color: dark red; /* Màu đường link */
-            text-decoration: none; /* LOẠI BỎ GẠCH CHÂN */
-        }
+        <aside id="sidebar">
+          <div class="dark">
+            <h3>Liên hệ</h3>
+            <form class="quote">
+  						<div>
+  							<label>Tên</label><br>
+  							<input type="text" placeholder="Tên">
+  						</div>
+  						<div>
+  							<label>Email</label><br>
+  							<input type="email" placeholder="Email">
+  						</div>
+  						<div>
+  							<label>Nội dung</label><br>
+  							<textarea placeholder="Nội dung"></textarea>
+  						</div>
+  						<button class="button_1" type="submit">Gửi</button>
+					</form>
+          </div>
+        </aside>
+      </div>
+    </section>
 
-        /* Hiệu ứng khi di chuột qua đường link */
-        a:hover {
-            color: red; /* Màu link khi di chuột: Xanh đậm hơn */
-            text-decoration: underline; /* Thêm lại gạch chân khi di chuột */
-        }
-
-        /* Danh sách Kỹ năng/Menu */
-        ul {
-            list-style: none; /* Loại bỏ dấu chấm đầu dòng cho Menu/Kỹ năng */
-            padding-left: 0;
-        }
-
-        ul li {
-            margin-bottom: 5px;
-        }
-
-        /* Danh sách Dịch vụ */
-        ol {
-            padding-left: 20px;
-        }
-        
-        ol li {
-            margin-bottom: 10px;
-        }
-
-
-        hr {
-            border: 0;
-            height: 1px;
-            background-color: #ccc;
-            margin: 20px 0;
-        }
-
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: light red; /* Màu nền footer: Xám rất nhạt */
-            color:  #6c757d;
-            border-top: 1px solid #ccc;
-        }
-    </style>
-</head>
-<body>
-    <h1>Kỹ Năng & Lĩnh Vực Chuyên Môn</h1>
-    
-    <h2>Phạm Duy Minh Nhân</h2>
-
-    <p>Dưới đây là tổng hợp các khả năng và sở trường mà tôi có thể làm cho bạn:</p>
-    
-    <h3>1. Người đưa ra lời khuyên và lắng nghe bạn khi bạn gặp khó  khăn (Technical Skills)</h3>
-    <ul>
-        <li><strong>Có thể nghe bạn tâm sự:</strong>Nghe bạn kể về những khó khăn mà bạn có trong cuộc sống</strong> </li>
-        <li><strong>Đưa ra lời khuyên,giúp bạn tỉnh táo trong nhiều tình huống:</strong> Tôi không phiền pải nghe bạn lè nhà lè nhè về chuyện của bạn</li>
-        <li><strong>Có thể chở bạn đi chơi khi bạn muốn:</strong> có thể đưa đón bạn đi khắp Nha Trang</li>
-        <li><strong>Có thể giúp bạn liên quan tới môn Lý</strong>:</strong> Giảng những bài mà bạn không hiểu</li>
-    </ul>
-
-    <h3>2. Lĩnh Vực Học Tập</h3>
-    <ol>
-        <li>**Thiết kế và Phát triển Website:** Xây dựng website cá nhân/doanh nghiệp bằng HTML/CSS</li>
-
-
-
+    <footer>
+      <p>Ngoc Minh Web Deisgn, Copyright &copy; 2022</p>
+    </footer>
+  </body>
+</html>
